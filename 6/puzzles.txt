@@ -1,0 +1,68 @@
+Namir Hassan
+
+1.)
+
+        x = 2, y = 1, z = 1
+
+        x = 2, y = 2, z = 1
+
+        x = 2, y = 2, z = 2
+
+        x = 0, y = 0, z = 1
+
+        x = 0, y = -1, z = -1
+
+        x = 0, y = 0, z = 0
+
+2.)
+        Can not have dash "-" in function name and
+        function call.
+
+3.)
+
+        output will be: 1
+        Why: since while is false, it will iterate once
+        and stop. Do while goes through the condition once.
+
+4.)
+
+        output is: f is Not 1.0
+
+        Why: f is declared as a floating point
+        and is greater than 1 at the end of the
+        for loop.
+
+5.)
+
+        The mistake is that int a = 1.2; not 1,2
+        the value takes the floor and is a 1 when
+        printed.
+
+6.)
+
+        This program will not print because it is
+        missing #include <stdio.h> and <stdlib.h>
+
+7.)
+
+        There is no difference between the two calls
+        to scanf, even after removing the space.
+
+8.)
+
+        i : 10
+        sizeof(i++) is: 4
+        i : 11
+
+9.) Line 8: printf("The date you have entered is %02d-%02d-%4d\n");
+
+
+10.) Line 6: for(i = 0; i < n; n--)
+
+     i-- should be changed to n--
+
+11.)
+
+        Floating point exception
+
+12.) 8

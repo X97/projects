@@ -1,0 +1,13 @@
+Namir Hassan
+
+(gdb) b 31
+Breakpoint 1 at 0x4005d9: file product.c, line 31.
+(gdb) r
+Starting program: /home/namir/lab6/product
+product is 151200
+
+Breakpoint 1, main () at product.c:32
+32		return 0;
+(gdb) bt full
+#0  main () at product.c:32
+        p = 151200

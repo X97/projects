@@ -1,0 +1,63 @@
+Namir Hassan
+
+my version of gdb commands
+
+Man page for gdb
+
+file - program that is going to be debugged [ex. gdb filename]
+
+backtrace - all stack frames previously are printed [Shortcut: bt]
+
+run - Starts the debugging of the program. [shortcut: r]
+
+list - Lists specified lines or function (up to a certain amount). [shortcut: l]
+
+help - a list of various commands is printed.
+
+break - a breakpoint is set at a location (specified by a numerical value) [shortcut: b]
+
+continue - after a breakpoint, debugged program will resume
+
+step - Goes to the next line one by one until it reaches an end [Shortcut: s]
+
+bt full - All stack frame backtraces are printed
+
+print - Prints the value of an expression in a given step at the time
+For a = 0, p a would give 0. [Shortcut: p]
+
+frame - stack frame is chosen/selected and printed
+
+kill - stops the current debugged program and returns to <gdb> for more commands
+
+next - skips function calls and subroutine functions [Shortcut: n]
+
+into b - Stack frames backtraces are printed
+
+disable/enable - breakpoints are enabled
+breakpoint are given numerical values (arguments are separated by spaces)
+
+Disable some breakpoints.
+Statements are breakpoint numbers with spaces in between.
+
+delete - breakpoints can be removed or expressions are displayed automatically.
+
+watch - Expression has a watchpoint to see if any changes occur during continuation.
+
+Conditional breakpoint - sets breakpoints based on user set criteria
+
+Part 2:
+
+bad.c requested the outputs to be the same, therefore by setting
+message equal to msg allows the output to be equal.
+
+product.c had its call function multiplied by 10 in order
+to get the correct expected output for 5-10 respective multiple sum
+
+pointer.c needed p to be equal to the &a address of a and
+by commenting out the second assignment to allow b to remain and print 1
+
+insert_sort.c by putting y[num_y] = new_y; outside the for loop
+it allowed it to properly print the expected outcome
+
+sort_easy.c added another part to the if statement to assure
+it will increment and print in order.
