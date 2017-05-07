@@ -1,0 +1,10 @@
+Namir Hassan
+2017-02-03
+
+This program will be used to calculate various geometric problems such
+as the area of a Rectangle, area of of a Circle, Circumference, and more.
+It will initially prompt the user a list of options, which the user must enter a
+number from 1-11 to choose from those options. Based on the users input, it will
+ask the user to enter a value to find the calculation for that selected choice.
+The user may quit the program by entering 0 when prompted to choose from the
+select list. Upon exiting the program, it will show that the program is quitting.
