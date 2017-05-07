@@ -1,0 +1,31 @@
+Namir Hassan
+2017-25-04
+
+By using what I have learned about doubly and singly linked lists, I was able to
+create this binary calculator. I also learned how to make use of the goto function
+within this lab. Also, I have the knowledge to compile my program more
+efficiently by the use of a Makefile.
+
+
+=============================================================
+Difference between Singly Linked List and Doubly Linked List:
+=============================================================
+
+Singly linked list needs two fields (value and next) as opposed to three fields
+(value, next, prev) for doubly linked list for each node. i.e doubly linked list
+needs more memory space than singly linked list.
+
+Each element in the singly linked list contains a reference to the next element
+in the list, while each element in the doubly linked list contains references to
+the next element as well as the previous element in the list.
+
+Singly linked list allows traversal in one direction, from head to tail.
+Doubly linked list, traversal of the list can be done in both direction, head to
+tail or tail to head. i.e Doubly linked list is more flexible and save time than
+singly linked list.
+
+Insertion and deletion of a node in list is more complex in doubly linked list
+than a singly linked list because of more pointer manipulations.
+
+Insertion of new node at the end of the doubly linked list take less time than a
+singly linked list because of tail pointer of doubly linked list.
